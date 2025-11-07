@@ -1,7 +1,2 @@
 def solution(n, k):
-    answer = []
-    
-    for i in range(1, n // k + 1):
-        answer.append(i * k)
-        
-    return answer
+    return [i for i in range(k, n+1, k)]
